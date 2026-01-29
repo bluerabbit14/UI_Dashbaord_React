@@ -1,0 +1,32 @@
+:root{
+
+  --green-01:#1B2316;
+
+  --white:#FFFFFF;
+  --white-5-hex:#FFFFFF0D;
+  --white-75-hex:#FFFFFFBF;
+
+  --black:#000000;
+
+  --yellow:#FFF84E;
+  --linear-gradient-01:linear-gradient(to right,#ffffff,#000000);
+  --linear-gradient-02:linear-gradient(to right,#ffffff,#666666);
+  --linear-gradient-03:linear-gradient(to right,#ffffff,#FBD300);
+  --linear-gradient-04:linear-gradient(to right,#ffffff 20%,#000000 50%,#ffffff 80%);
+  --linear-gradient-05:linear-gradient(to right,#ffffff 44%,#000000 50%,#ffffff 67%);
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
