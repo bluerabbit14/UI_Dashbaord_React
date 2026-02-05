@@ -1,0 +1,167 @@
+.BestCarousel {
+  background: var(--green-01);
+  padding: 80px 0;
+}
+
+/* ===== Heading ===== */
+.heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.heading h2 {
+  color: #fff;
+  border: 3px solid var(--yellow);
+  padding: 8px 20px;
+  font-size: 35px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+/* ===== Main Container ===== */
+.container {
+  display: flex;
+  gap: 50px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+  background: var(--white-5-hex);
+}
+
+/* ===== Image Section ===== */
+.image {
+  flex-shrink: 0;
+}
+
+.image img {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+}
+
+/* ===== Content Section ===== */
+.container-content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.header p {
+  font-size: 18px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* ===== Footer ===== */
+.footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer button {
+  border: 2px solid #fff;
+  border-radius: 6px;
+  height: 40px;
+  width: 120px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ===== Carousel Controls ===== */
+.carouselIndicator {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.carouselIndicator img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.backarrow {
+  transform: rotate(180deg);
+  opacity: 0.4;
+}
+
+.forwardarrow {
+  opacity: 1;
+}
+
+/* ===== Slide Counter ===== */
+.indicatorslide {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.currentSlide {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.totalSlide {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* ===== Bottom Indicators ===== */
+.bottom-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator-active {
+  width: 26px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

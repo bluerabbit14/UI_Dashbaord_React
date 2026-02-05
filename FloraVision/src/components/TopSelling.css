@@ -1,0 +1,78 @@
+.TopSelling{
+    background: var(--green-01);
+    padding: 40px;
+}
+.TopSelling-heading{
+    margin: 20px;
+    justify-items: center;
+}
+.TopSelling-heading h2{
+     color: #FFFFFF;
+     border: 3px solid var(--yellow);
+     border-radius: 10px;
+     padding: 6px 6px;
+}
+
+.TopSelling-displaygrid {
+  display: grid;
+  max-width: 1400px;
+  grid-template-columns: repeat(3, 1fr); /* max 3 columns */
+  gap: 24px;
+  padding: 20px;
+}
+
+/* Responsive (optional but recommended) */
+@media (max-width: 900px) {
+  .TopSelling-displaygrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .TopSelling-displaygrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.plantcard {
+  background: var(--white-5-hex);
+  border: 1px solid #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.plantcard img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+.plantcard h2 {
+  color: var(--white-75-hex);
+}
+.plantcard p {
+   color: var(--white-75-hex);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.card-footer p{
+   color: var(--white-75-hex);
+
+}
+.card-addbasket{
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    padding: 2px;
+}
+.card-addbasket img{
+    width: 14px;
+    height: 14px;
+}
+

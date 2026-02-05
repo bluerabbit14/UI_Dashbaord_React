@@ -35,6 +35,7 @@
 
 .hero-main-text {
     max-width: 600px;
+    margin-top: 70px;
 }
 
 .hero-title {
@@ -232,15 +233,16 @@
 .section-header {
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 .section-title {
     font-size: 2.5rem;
     font-weight: 500;
-    padding: 0.8rem 2.5rem;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 100px;
+    padding: 0.2rem 0.2rem;
+    border:5px solid transparent;
+    border-color: var(--yellow);
+    border-radius: 25px;
     position: relative;
 }
 
@@ -249,7 +251,7 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -257,12 +259,12 @@
     display: flex;
     align-items: center;
     gap: 4rem;
-    padding: 3rem;
-    border-radius: 60px;
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2.5rem 4rem;
+    border-radius: 100px;
+    background: var(--white-5-hex);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border: 2px solid var(--white);
 }
 
 
@@ -280,32 +282,26 @@
     width: 100%;
     max-width: 320px;
     height: auto;
-    filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.5));
+    z-index: 10000;
 }
 
 .trendy-card-content {
-    flex: 1.5;
+    flex: 1.4;
 }
 
 .trendy-card-title {
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 1.5rem;
-    line-height: 1.2;
 }
 
 .trendy-card-description {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: var(--white-75-hex);
-    margin-bottom: 2rem;
-    max-width: 500px;
+    font-size: 1rem;
+    color: var(--white);
 }
 
 .trendy-card-price {
     font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
+    font-weight: 600;
     color: var(--white);
 }
 
@@ -317,11 +313,11 @@
 
 .btn-explore {
     background: none;
-    border: 1px solid var(--white-75-hex);
+    border: 2px solid var(--white);
     color: var(--white);
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2.5rem;
     border-radius: 12px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 
@@ -329,7 +325,7 @@
     width: 50px;
     height: 50px;
     background: none;
-    border: 1px solid var(--white-75-hex);
+    border: 2px solid var(--white);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -338,9 +334,8 @@
 
 
 .btn-bag img {
-    width: 20px;
-    height: 20px;
-    filter: invert(1);
+    width: 25px;
+    height: 25px;
 }
 
 /* Responsive */
