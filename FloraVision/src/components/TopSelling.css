@@ -1,10 +1,11 @@
 .TopSelling{
     background: var(--green-01);
     padding: 40px;
+    margin:0px;
+    justify-items: center;
 }
 .TopSelling-heading{
-    margin: 20px;
-    justify-items: center;
+    margin: 120px 0px;
 }
 .TopSelling-heading h2{
      color: #FFFFFF;

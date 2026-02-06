@@ -11,7 +11,7 @@ export default function Footer() {
         <div className='footer-brand'>
           <div className='footer-logo'>
             <img src={logo} alt='FloraVision'></img>
-            <h2 className='logo-title'>FloraVision.</h2>
+            <h2>FloraVision.</h2>
           </div>
           <p>"From lush indoor greens to vibrant outdoor blooms, our plants are
             crafted to thrive and elevate your living environment."</p>

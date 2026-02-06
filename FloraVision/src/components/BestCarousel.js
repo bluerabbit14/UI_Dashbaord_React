@@ -77,7 +77,7 @@ export default function BestCarousel() {
             <p>{currentItem.description2}</p>
           </div>
 
-          <div className="footer">
+          <div className="footer-carousel">
             <button>Explore</button>
 
             <div className="carouselIndicator">
